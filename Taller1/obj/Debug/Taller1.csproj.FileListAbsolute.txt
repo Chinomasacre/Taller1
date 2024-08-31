@@ -1,0 +1,14 @@
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\bin\Debug\Taller1.exe.config
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\bin\Debug\Taller1.exe
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\bin\Debug\Taller1.pdb
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\bin\Debug\Entity.dll
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\bin\Debug\Entity.pdb
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.csproj.AssemblyReference.cache
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.Form1.resources
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.FormRegistroGuias.resources
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.Properties.Resources.resources
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.csproj.GenerateResource.cache
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.csproj.CoreCompileInputs.cache
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.csproj.Up2Date
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.exe
+C:\Users\CHINOMASACRE\source\repos\Taller1\Taller1\obj\Debug\Taller1.pdb

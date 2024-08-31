@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{981344DF-7804-4208-870F-C3AC6E453C88}|ConsolaPrincipal\\ConsolaPrincipal.csproj|c:\\users\\chinomasacre\\desktop\\nueva carpeta\\patrones d\\actividad\\taller1\\taller1-consola-c#\\consolaprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{981344DF-7804-4208-870F-C3AC6E453C88}|ConsolaPrincipal\\ConsolaPrincipal.csproj|solutionrelative:consolaprincipal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\classlibrary1\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|solutionrelative:classlibrary1\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\classlibrary1\\guia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|solutionrelative:classlibrary1\\guia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\classlibrary1\\destinatario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|solutionrelative:classlibrary1\\destinatario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\classlibrary1\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|solutionrelative:classlibrary1\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\classlibrary1\\sobre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|solutionrelative:classlibrary1\\sobre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\classlibrary1\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|solutionrelative:classlibrary1\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\classlibrary1\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|solutionrelative:classlibrary1\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D139CA9-438E-496B-B2F2-E9F5DD79C981}|Taller1\\Taller1.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\taller1\\formregistroguias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D139CA9-438E-496B-B2F2-E9F5DD79C981}|Taller1\\Taller1.csproj|solutionrelative:taller1\\formregistroguias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\classlibrary1\\remitente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB27BE2A-0EBE-4261-8695-22F757002B1E}|ClassLibrary1\\Entity.csproj|solutionrelative:classlibrary1\\remitente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D139CA9-438E-496B-B2F2-E9F5DD79C981}|Taller1\\Taller1.csproj|C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\taller1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D139CA9-438E-496B-B2F2-E9F5DD79C981}|Taller1\\Taller1.csproj|solutionrelative:taller1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ConsolaPrincipal\\Program.cs",
+              "RelativeDocumentMoniker": "ConsolaPrincipal\\Program.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ConsolaPrincipal\\Program.cs",
+              "RelativeToolTip": "ConsolaPrincipal\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwKYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T02:59:27.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Destinatario.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Destinatario.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Destinatario.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Destinatario.cs",
+              "RelativeToolTip": "ClassLibrary1\\Destinatario.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T01:15:47.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sobre.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Sobre.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Sobre.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Sobre.cs",
+              "RelativeToolTip": "ClassLibrary1\\Sobre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T00:22:01.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Persona.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Persona.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Persona.cs",
+              "RelativeToolTip": "ClassLibrary1\\Persona.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvw8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T01:06:33.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Paquete.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Paquete.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Paquete.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Paquete.cs",
+              "RelativeToolTip": "ClassLibrary1\\Paquete.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T01:00:17.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Caja.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Caja.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Caja.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Caja.cs",
+              "RelativeToolTip": "ClassLibrary1\\Caja.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T00:51:56.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Guia.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Guia.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Guia.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Guia.cs",
+              "RelativeToolTip": "ClassLibrary1\\Guia.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T22:20:16.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Servicio.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Servicio.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Servicio.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Servicio.cs",
+              "RelativeToolTip": "ClassLibrary1\\Servicio.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T00:12:30.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormRegistroGuias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\Taller1\\FormRegistroGuias.cs",
+              "RelativeDocumentMoniker": "Taller1\\FormRegistroGuias.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\source\\repos\\Taller1\\Taller1\\FormRegistroGuias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\source\\repos\\Taller1\\Taller1\\FormRegistroGuias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T03:28:26.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Remitente.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Remitente.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Remitente.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\ClassLibrary1\\Remitente.cs",
+              "RelativeToolTip": "ClassLibrary1\\Remitente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T03:24:17.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\Taller1\\Program.cs",
+              "RelativeDocumentMoniker": "Taller1\\Program.cs",
+              "ToolTip": "C:\\Users\\CHINOMASACRE\\Desktop\\Nueva carpeta\\patrones d\\actividad\\taller1\\Taller1-consola-c#\\Taller1\\Program.cs",
+              "RelativeToolTip": "Taller1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T01:48:32.919Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

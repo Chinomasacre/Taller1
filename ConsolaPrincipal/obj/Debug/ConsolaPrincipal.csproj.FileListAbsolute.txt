@@ -1,0 +1,20 @@
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\bin\Debug\ConsolaPrincipal.exe.config
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\bin\Debug\ConsolaPrincipal.exe
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\bin\Debug\ConsolaPrincipal.pdb
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\obj\Debug\ConsolaPrincipal.csproj.AssemblyReference.cache
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\obj\Debug\ConsolaPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\obj\Debug\ConsolaPrincipal.exe
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\obj\Debug\ConsolaPrincipal.pdb
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\bin\Debug\Entity.dll
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\bin\Debug\Entity.pdb
+C:\Users\CHINOMASACRE\source\repos\Taller1\ConsolaPrincipal\obj\Debug\ConsolaP.D454DDB6.Up2Date
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\bin\Debug\ConsolaPrincipal.exe.config
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\bin\Debug\ConsolaPrincipal.exe
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\bin\Debug\ConsolaPrincipal.pdb
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\bin\Debug\Entity.dll
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\bin\Debug\Entity.pdb
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\obj\Debug\ConsolaPrincipal.csproj.AssemblyReference.cache
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\obj\Debug\ConsolaPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\obj\Debug\ConsolaP.D454DDB6.Up2Date
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\obj\Debug\ConsolaPrincipal.exe
+C:\Users\CHINOMASACRE\Desktop\Nueva carpeta\patrones d\actividad\taller1\Taller1\ConsolaPrincipal\obj\Debug\ConsolaPrincipal.pdb

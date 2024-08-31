@@ -1,0 +1,6 @@
+C:\Users\CHINOMASACRE\source\repos\Taller1\ClassLibrary1\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Users\CHINOMASACRE\source\repos\Taller1\ClassLibrary1\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\CHINOMASACRE\source\repos\Taller1\ClassLibrary1\bin\Debug\Entity.dll
+C:\Users\CHINOMASACRE\source\repos\Taller1\ClassLibrary1\bin\Debug\Entity.pdb
+C:\Users\CHINOMASACRE\source\repos\Taller1\ClassLibrary1\obj\Debug\Entity.dll
+C:\Users\CHINOMASACRE\source\repos\Taller1\ClassLibrary1\obj\Debug\Entity.pdb
