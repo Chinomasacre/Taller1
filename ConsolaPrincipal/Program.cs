@@ -9,10 +9,11 @@ namespace ConsolaPrincipal
 {
     public class Program
     {
-        public static List<Guia> guias;
-        static void Main(string[] args)
+        public static IAlmacenamientoGuia almacenamiento = new AlmacenamientoSet();
+        public static IConsultaGuia guiaConsultador = new ConsultaGuia(almacenamiento.getGuias());
+        public static GestionGuias gestion = new GestionGuias(almacenamiento, guiaConsultador);
+        public static void Main(string[] args)
         {
-            guias = new List<Guia>();
             // Menú principal
             while (true)
             {
@@ -21,7 +22,9 @@ namespace ConsolaPrincipal
                 Console.WriteLine("1. Registrar Guias");
                 Console.WriteLine("2. Registro de Entrega");
                 Console.WriteLine("3. Consultar Guias");
-                Console.WriteLine("4. Salir");
+                Console.WriteLine("4. Registrar Guias Automaticamente");
+                Console.WriteLine("5. Consultar Todos");
+                Console.WriteLine("6. Salir");
                 Console.Write("Seleccione una opción: ");
 
                 int opcion = int.Parse(Console.ReadLine());
@@ -39,8 +42,59 @@ namespace ConsolaPrincipal
                         ConsultarGuias();
 
                         break;
+                    case 4:
+                        Servicio servicio1 = new Sobre(true, 10, 15.5, "Envío internacional de documentos");
+                        servicio1.CalcularLiquidacion();
+
+                        if (servicio1.getDHL())
+                        {
+                            servicio1.AumentarxInternacional();
+                        }
+                        Servicio servicio2 = new Paquete(false, 5, 7.2, "Paquete nacional pequeño");
+                        servicio2.CalcularLiquidacion();
+
+                        if (servicio2.getDHL())
+                        {
+                            servicio2.AumentarxInternacional();
+                        }
+                        Servicio servicio3 = new Caja(true, 20, 25.3, "Carga pesada internacional");
+                        servicio3.CalcularLiquidacion();
+
+                        if (servicio3.getDHL())
+                        {
+                            servicio3.AumentarxInternacional();
+                        }
+
+                        Guia guia1 = new Guia(1, "2024-09-07", servicio1);
+                        guia1.CrearRemitente("Tecnología", "123", "Juan Pérez", "123-456-789");
+                        guia1.CrearDestinatario("Compañía A", "Av. Siempre Viva 123", "123", "Maria López", "987-654-321");
+                        gestion.GuardarGuia(guia1);
+
+                        Guia guia2 = new Guia(2, "2024-09-08", servicio2);
+                        guia2.CrearRemitente("Ventas", "456", "Luis Martínez", "234-567-890");
+                        guia2.CrearDestinatario("Compañía B", "Calle Falsa 456", "456", "Ana Rodríguez", "876-543-210");
+                        gestion.GuardarGuia(guia2);
+
+                        Guia guia3 = new Guia(3, "2024-09-09", servicio3);
+                        guia3.CrearRemitente("Administración", "789", "Carlos Gómez", "345-678-901");
+                        guia3.CrearDestinatario("Compañía C", "Plaza Mayor 789", "789", "Laura Fernández", "765-432-109");
+                        gestion.GuardarGuia(guia3);
+
+                        Console.WriteLine("Registros Exitosamente");
+                        Console.ReadKey();
+                        break;
                     case 5:
+                        foreach (Guia g in gestion.ConsultarGuias())
+                        {
+                            Console.WriteLine(g.ObtenerDatos());
+                            Console.WriteLine("-----------");
+                        }
+                        Console.ReadKey();
+                        break;
+                    case 6:
                         Console.WriteLine("Saliendo del programa...");
+                        Console.WriteLine("Presiona cualquier tecla para continuar...");
+                        Console.ReadKey();
                         return;
                     default:
                         Console.WriteLine("Opción inválida.");
@@ -127,7 +181,7 @@ namespace ConsolaPrincipal
             }
             servicio.CalcularLiquidacion();
 
-            if (servicio.DHL)
+            if (servicio.getDHL())
             {
                 servicio.AumentarxInternacional();
             }
@@ -136,7 +190,7 @@ namespace ConsolaPrincipal
             guia.CrearDestinatario(compañia, direccion, identificacionD, nombreD, telefonoD);
             guia.CrearRemitente(departamento, identificacionR, nombreR, nombreD);
 
-            guias.Add(guia);
+            gestion.GuardarGuia(guia);
 
             Console.WriteLine("Guardado Correctamente");
             Console.WriteLine("Presiona cualquier tecla para continuar...");
@@ -149,31 +203,23 @@ namespace ConsolaPrincipal
             Console.WriteLine("Ingrese No Envio: ");
             int NoEnvio = int.Parse(Console.ReadLine());
 
-            Guia guia = null;
-            foreach(Guia g in guias)
-            {
-                if(g.NoEnvio == NoEnvio)
-                {
-                    guia = g;
-                    break;
-                }
-            }
-            if (guia  == null)
+            Guia guia = gestion.ConsultarGuiaExistencia(NoEnvio);
+            
+            if (guia == null)
             {
                 Console.WriteLine("No se encontro guia ");
             }
             else
             {
-                Console.WriteLine($"No Envio: {guia.NoEnvio}");
-                Console.WriteLine($"Feacha: {guia.Fecha}");
-                Console.WriteLine($"Estado: {guia.Estado}");
+                Console.WriteLine($"Datos de GUia: {guia.ObtenerDatos()}");
                 Console.WriteLine("Cambiar estado a 'FINALIZADA'?¿");
                 Console.WriteLine("1. Si");
                 Console.WriteLine("2. No");
+                Console.Write("Selecciones Opcion: ");
                 int opcion = int.Parse(Console.ReadLine());
                 if (opcion == 1)
                 {
-                    guia.CambiarEstado("FINALIZADA");
+                    guia.setEstado("FINALIZADA");
                     Console.WriteLine($"Estado Cambiado");
                 }
                 else
@@ -201,27 +247,26 @@ namespace ConsolaPrincipal
                     case 1:
                         Console.WriteLine("\nConsultar por estado:");
                         Console.WriteLine("1. Finalizado");
-                        Console.WriteLine("2. En proceso");
+                        Console.WriteLine("2. En Despacho");
                         Console.Write("Seleccione una opción: ");
                         int op = int.Parse(Console.ReadLine());
                         if(op == 1)
                         {
-                            foreach(Guia g in guias)
+                            foreach (Guia g in gestion.ConsultarGuiaEstado("FINALIZADA"))
                             {
-                                if(g.Estado == "FINALIZADA")
-                                {
-                                    Pintar(g);
-                                }
+                                
+                                Console.WriteLine(g.ObtenerDatos());
+                                Console.WriteLine("-----------");
+
                             }
                         }
                         else
                         {
-                            foreach (Guia g in guias)
+                            foreach (Guia g in gestion.ConsultarGuiaEstado("DESPACHO"))
                             {
-                                if (g.Estado != "FINALIZADA")
-                                {
-                                    Pintar(g);
-                                }
+                                Console.WriteLine(g.ObtenerDatos());
+                                Console.WriteLine("-----------");
+
                             }
                         }
                         break;
@@ -229,12 +274,11 @@ namespace ConsolaPrincipal
                         Console.WriteLine("\nConsultar por remitente:");
                         Console.Write("Ingrese Identificacion: ");
                         string idR = Console.ReadLine();
-                        foreach (Guia g in guias)
+                        foreach (Guia g in gestion.ConsultarGuiaRemitente(idR))
                         {
-                            if (g.Remitente.Identificacion == idR)
-                            {
-                                Pintar(g);
-                            }
+                                Console.WriteLine(g.ObtenerDatos());
+                                Console.WriteLine("-----------");
+                          
                         }
                         break;
                     case 3:
@@ -249,21 +293,6 @@ namespace ConsolaPrincipal
             } while(opcion != 3);
            
         }
-        public static void Pintar(Guia g)
-        {
-            Console.WriteLine($"NoEnvio: {g.NoEnvio}");
-            Console.WriteLine($"Fecha: {g.Fecha}");
-            Console.WriteLine($"Servicio: {g.Servicio}");
-            Console.WriteLine($"Compañia: {g.Destinatario.Compañia}");
-            Console.WriteLine($"Direccion: {g.Destinatario.Direccion}");
-            Console.WriteLine($"Identificacion Destinatario: {g.Destinatario.Identificacion}");
-            Console.WriteLine($"Nombre Destinatario: {g.Destinatario.Nombre}");
-            Console.WriteLine($"Telefono Destinatario: {g.Destinatario.Telefono}");
-            Console.WriteLine($"Departamento Remitente: {g.Remitente.Departamento}");
-            Console.WriteLine($"Identificacion Remitente: {g.Remitente.Identificacion}");
-            Console.WriteLine($"Nombre Remitente: {g.Remitente.Nombre}");
-            Console.WriteLine($"Estado: {g.Estado}");
-            Console.WriteLine();
-        }
+        
     }
 }

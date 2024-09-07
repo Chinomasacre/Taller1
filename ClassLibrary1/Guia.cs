@@ -9,12 +9,12 @@ namespace Entity
 {
     public class Guia
     {
-        public int NoEnvio { get; set; }
-        public string Fecha { get; set; }
-        public string Estado { get; set; }
-        public Servicio Servicio { get; set; }
-        public Remitente Remitente { get; set; }
-        public Destinatario Destinatario { get; set; }
+        private int NoEnvio { get; set; }
+        private string Fecha { get; set; }
+        private string Estado { get; set; }
+        private Servicio Servicio { get; set; }
+        private Persona Remitente { get; set; }
+        private Persona Destinatario { get; set; }
         public Guia()
         {
         }
@@ -22,7 +22,7 @@ namespace Entity
         {
             NoEnvio = noEnvio;
             Fecha = fecha;
-            Estado = "Despacho";
+            Estado = "DESPACHO";
             Servicio = servicio;
         }
         public void CrearRemitente(string departamento, string identificacion, string nombre, string telefono)
@@ -34,9 +34,28 @@ namespace Entity
         {
             Destinatario = new Destinatario(compañia, direccion, identificacion, nombre, telefono);
         }
-        public void CambiarEstado(string estado)
+        public int getNoGuia()
+        {
+            return NoEnvio;
+        }
+        public string getEstado()
+        {
+            return Estado;
+        }
+
+        public void setEstado(string estado)
         {
             Estado = estado;
+        }
+        public Persona getRemitente()
+        {
+            return Remitente;
+        }
+        
+        public string ObtenerDatos() 
+        {
+            return $"No Envio: {NoEnvio} \nFecha: {Fecha} \nEstado: {Estado} \nTipo De Servicio: {Servicio.GetType().Name} \nDatos del Servicio: {Servicio.ToString()}" +
+                $"\nDatos del Remitente: {Remitente.ToString()} \nDatos del Destinatario {Destinatario.ToString()}";
         }
     }
 }

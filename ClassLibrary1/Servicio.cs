@@ -8,12 +8,12 @@ namespace Entity
 {
     public abstract class Servicio
     {
-        public double Valor_Base {  get; set; }
-        public bool DHL { get; set; }
-        public int Cantidad { get; set; }
-        public double Peso { get; set; }
-        public string Descripcion { get; set; }
-        public double LiquidacionTotal { get; set; }
+        protected double Valor_Base {  get; set; }
+        private bool DHL { get; set; }
+        protected int Cantidad { get; set; }
+        protected double Peso { get; set; }
+        private string Descripcion { get; set; }
+        protected double LiquidacionTotal { get; set; }
         public Servicio()
         {
             Valor_Base = 5000;
@@ -28,10 +28,24 @@ namespace Entity
             Peso = peso;
             Descripcion = descripcion;
         }
+        public abstract void CalcularLiquidacion();
         public void AumentarxInternacional()
         {
             LiquidacionTotal *= 1.25;
         }
-        public abstract double CalcularLiquidacion();
+        public bool getDHL()
+        {
+            return DHL;
+        }
+        public void setValorBase(double vb)
+        {
+            Valor_Base = vb;
+        }
+        
+        public override string ToString()
+        {
+            return $"\n\tValor Base: {Valor_Base} \n\tDHL: {DHL} \n\tCantidad: {Cantidad} \n\tPeso: {Peso} " +
+                $"\n\tDescripcion: {Descripcion} \n\tLiquidacion Total: {LiquidacionTotal}";
+        }
     }
 }

@@ -17,11 +17,10 @@ namespace Entity
         {
         }
 
-        public override double CalcularLiquidacion()
+        public override void CalcularLiquidacion()
         {
             LiquidacionTotal = Valor_Base * Peso;
-
-            return LiquidacionTotal;
         }
+        
     }
 }

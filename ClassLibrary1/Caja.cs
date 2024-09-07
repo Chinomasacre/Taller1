@@ -8,7 +8,7 @@ namespace Entity
 {
     public class Caja:Servicio
     {
-        public double Tarifa { get; set; }
+        private double Tarifa { get; set; }
 
         public Caja()
         {
@@ -20,11 +20,14 @@ namespace Entity
             Tarifa = 25000;
         }
 
-        public override double CalcularLiquidacion()
+        public override void CalcularLiquidacion()
         {
-            LiquidacionTotal = Valor_Base*Peso + Tarifa;
-         
-            return LiquidacionTotal;
+            LiquidacionTotal = Valor_Base * Peso + Tarifa;
+        }
+        override
+        public string ToString()
+        {
+            return $"\n\tTarifa: {Tarifa} {base.ToString()}";
         }
     }
 }

@@ -93,6 +93,10 @@
       <Project>{db27be2a-0ebe-4261-8695-22f757002b1e}</Project>
       <Name>Entity</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ConsolaPrincipal\ConsolaPrincipal.csproj">
+      <Project>{981344df-7804-4208-870f-c3ac6e453c88}</Project>
+      <Name>ConsolaPrincipal</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

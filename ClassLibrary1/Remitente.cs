@@ -17,5 +17,10 @@ namespace Entity
         {
             Departamento = departamento;
         }
+        override
+        public string ToString()
+        {
+            return $"{base.ToString()}\n\tDepartamento: {Departamento}";
+        }
     }
 }

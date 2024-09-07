@@ -8,9 +8,9 @@ namespace Entity
 {
     public class Persona
     {
-        public string Identificacion { get; set; }
-        public string Nombre { get; set; }
-        public string Telefono { get; set; }
+        private string Identificacion { get; set; }
+        private string Nombre { get; set; }
+        private string Telefono { get; set; }
         public Persona() { }
 
         public Persona(string identificacion, string nombre, string telefono)
@@ -18,6 +18,16 @@ namespace Entity
             Identificacion = identificacion;
             Nombre = nombre;
             Telefono = telefono;
+        }
+
+        public string getIdentificacion()
+        {
+            return Identificacion;
+        }
+        override
+        public string ToString()
+        {
+            return $"\n\tIdentificacion: {Identificacion} \n\tNombre: {Nombre}\n\tTelefono: {Telefono}";
         }
     }
 }

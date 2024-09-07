@@ -18,5 +18,9 @@ namespace Entity
             Compañia = compañia;
             Direccion = direccion;
         }
+        public string ToString()
+        {
+            return $"{base.ToString()}\n\tCompañia: {Compañia}\n\tDireccion: {Direccion}";
+        }
     }
 }

@@ -8,7 +8,7 @@ namespace Entity
 {
     public class Sobre:Servicio
     {
-        public double Tarifa { get; set; }
+        private double Tarifa { get; set; }
         public Sobre()
         {
             Tarifa = 10000;
@@ -19,11 +19,17 @@ namespace Entity
             
             Tarifa = 10000;
         }
-
-        public override double CalcularLiquidacion()
+        public void setTarifa(double tarifa)
+        {
+            Tarifa = tarifa;
+        }
+        public override void CalcularLiquidacion()
         {
             LiquidacionTotal = Valor_Base + Tarifa;
-            return LiquidacionTotal;
+        }     
+        public override string ToString()
+        {
+            return $"\n\tTarifa: {Tarifa} {base.ToString()}";
         }
     }
 }
